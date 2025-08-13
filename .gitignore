@@ -11,3 +11,7 @@ build/
 .DS_Store        # This line prevents future .DS_Store files
 **/.DS_Store     # This catches .DS_Store in subdirectories too
 Thumbs.db
+
+
+git.token
+git.update
