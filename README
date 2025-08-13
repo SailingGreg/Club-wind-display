@@ -1,0 +1,40 @@
+# Club Wind Display
+
+ESP32-based e-paper display showing real-time wind speed and direction for sailing clubs.
+
+## Features
+
+- 7.5" e-paper display (800×480)
+- Dual wind charts (speed + direction)
+- Auto-scaling and positioning
+- Multi-network WiFi support
+- Automatic server selection
+- 5-minute refresh cycle
+- Ghosting prevention
+
+## Hardware
+
+- Seeed XIAO ESP32-S3
+- Seeed 7.5" e-paper display
+- WiFi connection
+
+## Setup
+
+1. Copy `wifi_credentials_template.h` to `wifi_credentials.h`
+2. Edit `wifi_credentials.h` with your WiFi details
+3. Configure your image server URLs
+4. Upload to ESP32
+
+## Libraries Required
+
+- TFT_eSPI (Seeed version)
+- PNGdec
+- WiFi
+- HTTPClient
+
+## Configuration
+
+Edit `wifi_credentials.h`:
+```cpp
+const char* ssid1 = "YourWiFiName";
+const char* password1 = "YourWiFiPassword";

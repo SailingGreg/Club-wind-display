@@ -1,0 +1,8 @@
+# Credentials
+wifi_credentials.h
+config.h
+
+# Arduino build files
+build/
+*.hex
+*.bin
